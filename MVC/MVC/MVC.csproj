@@ -195,18 +195,8 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\BasketsController.cs" />
-    <Compile Include="Controllers\ProductsController.cs" />
-    <Compile Include="Migrations\201705212149496_InitialCreate.cs" />
-    <Compile Include="Migrations\201705212149496_InitialCreate.Designer.cs">
-      <DependentUpon>201705212149496_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201705212233394_InitMigration.cs" />
-    <Compile Include="Migrations\201705212233394_InitMigration.Designer.cs">
-      <DependentUpon>201705212233394_InitMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Basket.cs" />
+    <Compile Include="Basket.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -278,21 +268,10 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Baskets\Create.cshtml" />
-    <Content Include="Views\Baskets\Delete.cshtml" />
-    <Content Include="Views\Baskets\Details.cshtml" />
-    <Content Include="Views\Baskets\Edit.cshtml" />
-    <Content Include="Views\Baskets\Index.cshtml" />
-    <Content Include="Views\Products\Create.cshtml" />
-    <Content Include="Views\Products\Delete.cshtml" />
-    <Content Include="Views\Products\Details.cshtml" />
-    <Content Include="Views\Products\Edit.cshtml" />
-    <Content Include="Views\Products\Index.cshtml" />
-    <Content Include="Views\ItemView.cshtml" />
-    <Content Include="Views\BasketView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Basket\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -301,14 +280,6 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705212149496_InitialCreate.resx">
-      <DependentUpon>201705212149496_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201705212233394_InitMigration.resx">
-      <DependentUpon>201705212233394_InitMigration.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

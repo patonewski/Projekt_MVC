@@ -80,6 +80,3 @@ C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\bin\Microsoft.Owin.Security.
 C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
 C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\obj\Debug\MVC.dll
 C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\obj\Debug\MVC.pdb
-C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\obj\Debug\MVC.Migrations.InitialCreate.resources
-C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
-C:\Users\Paton\Documents\GitHub\Projekt_MVC\MVC\MVC\obj\Debug\MVC.Migrations.InitMigration.resources
